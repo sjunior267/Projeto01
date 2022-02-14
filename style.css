@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0e0e0e;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  margin: 0px;
+}
+.logo {
+  height: 80px;
+  margin-left: 20px;
+}
+.nav-menu1 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-menu2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-right: 50px;
+  position: relative;
+}
+.nav-menu2 img {
+  height: 30px;
+}
+.noti {
+  text-align: center;
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+.filme-selecionado {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-image: url("/SPIDER-MAN-NO-WAY-HOME.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  color: white;
+  height: 400px;
+  box-shadow: inset 134px 55px 39px black;
+}
+.filme-selecionado p {
+  max-width: 500px;
+  font-size: 20px;
+}
+.nota {
+  color: green;
+  font-weight: 800;
+}
+.botoes {
+  display: flex;
+  gap: 20px;
+}
+.botoes img {
+  height: 20px;
+}
+.assistir {
+  display: flex;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  align-items: end;
+}
+.assistir a {
+  color: black;
+}
+.informacoes {
+  background-color: #5e5353;
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+.filmes {
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  gap: 20px;
+}
+.filmes img {
+  height: 360px;
+}
+.filmes h2 {
+  position: absolute;
+  color: white;
+  left: 10px;
+  top: -30px;
+}
